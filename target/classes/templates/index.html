@@ -1,0 +1,68 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Login Page | Noob Blog</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="alternate icon" type="image/png" href="/i/favicon.png">
+    <link rel="stylesheet" href="/css/amazeui.css"/>
+    <style>
+        .header {
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 200%;
+            color: #333;
+            margin-top: 30px;
+        }
+        .header p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="am-g">
+        <h1>Noob Blog</h1>
+        <p>Here you can write anything you want</p>
+    </div>
+    <hr />
+</div>
+<div class="am-g">
+    <div class="col-lg-6 col-md-8 col-sm-centered">
+        <h3>Login</h3>
+        <hr>
+        <div class="am-btn-group">
+            <a href="#" class="am-btn am-btn-secondary am-btn-sm"><i class="am-icon-github am-icon-sm"></i> Github</a>
+            <a href="#" class="am-btn am-btn-success am-btn-sm"><i class="am-icon-google-plus-square am-icon-sm"></i> Google+</a>
+            <a href="#" class="am-btn am-btn-primary am-btn-sm"><i class="am-icon-stack-overflow am-icon-sm"></i> stackOverflow</a>
+        </div>
+        <br>
+        <br>
+
+        <form method="post" class="am-form">
+            <label for="email">Email:</label>
+            <input type="email" name="" id="email" value="">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" name="" id="password" value="">
+            <div class="am-cf" style="width:800px; margin:0 auto;">
+                <input type="submit" name="" value="Login" class="am-btn am-btn-primary am-btn-sm am-figure-default">
+            </div>
+            <div class="am-col">
+                <input type="submit" name="" value="Forgot password? " class="am-btn am-btn-sm am-fl">
+            </div>
+            <div>
+<!--                <input type="submit" name="" value="Sign Up " class="am-btn am-btn-sm am-fr">-->
+                <a href="/register" class="am-btn am-btn-primary" style="color: white">Sign Up</a>
+            </div>
+        </form>
+        <hr>
+        <p>© 2019 AllMobilize, Inc. Licensed under MIT license.</p>
+    </div>
+</div>
+</body>
+</html>
